@@ -1,0 +1,40 @@
+<html>
+<body bgcolor="#E6E6FA">
+	<head> 
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Contact Us</title>
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script src="js/jquery.validate.js"></script>
+	</head>
+	<br>
+	<br>
+	<form regForm2>
+First name:
+	<br>
+<input type="text" name="firstname" minlength=2 required> 
+ 	<br>
+ 	<br>
+ Last name:
+ 	<br>
+ <input type="text" name="lastname" minlength=2 required>
+ 	<br>
+ 	<br>
+ Email Address:
+ 	<br>
+ <input type="text" name="firstname" minlength=2 required>
+ 	<br>
+ 	<br>
+<textarea name="message" rows="10" cols="30" minlength=2 required>
+Please enter feedback here and we will get back to you as soon as possible.
+</textarea>
+	<br>
+	<br>
+	<button type="submit" value="Submit">Submit</button>
+	<button type="reset" value="Reset">Cancel</button>
+	<br>
+	<br>
+</form>
+<script>
+$("#regForm2").validate();
+</script>
+</html>
